@@ -1,4 +1,3 @@
-```markdown
 # QHF History Converter
 
 A Python script to parse and convert QIP history files (.qhf format) into more accessible formats: JSON (for structured data) or plain text (for human-readable logs).
@@ -90,8 +89,6 @@ python qhf_converter.py [options] <input_path> [output_path]
 
 The `.qhf` file format stores chat history for the QIP instant messenger. The structure consists of a header followed by a series of message blocks.
 
-*(Based on descriptions from [MolinRE/QIParser](https://github.com/MolinRE/QIParser) and [alexey-m.ru](https://alexey-m.ru/articles/qip-infium-prodolzhenie-istorii))*
-
 1.  **File Header:**
     *   Starts with the magic bytes `QHF`.
     *   Contains metadata such as format version, file size (potentially inaccurate), message counts (potentially inaccurate), and importantly:
@@ -118,4 +115,3 @@ The `.qhf` file format stores chat history for the QIP instant messenger. The st
 ## Acknowledgements
 
 *   The original format description was taken from [github.com/MolinRE/QIParser](https://github.com/MolinRE/QIParser). Many thanks to the author
-```
